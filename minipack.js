@@ -47,7 +47,7 @@ function createAST(filename) {
 }
 
 /**
- *
+ *递归获得所有的依赖模块
  */
 function createGraph(entry) {
   const mainAsset = createAST(entry);
@@ -82,7 +82,6 @@ function bundle(graph) {
     ${JSON.stringify(mod.mapping)},
     ],`;
   });
-//   console.log(modules, '------------------')
   const result = `
     (function(modules) {
     function require(id) {
@@ -100,5 +99,3 @@ function bundle(graph) {
   return result;
 }
 let res = bundle(createGraph('./src/entry.js'))
-
-// console.log((createGraph('./src/entry.js')));

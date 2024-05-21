@@ -33,4 +33,6 @@ f(5) // 5000
 
 ## 参考
 [浏览器加载 CommonJS 模块的原理与实现](https://www.ruanyifeng.com/blog/2015/05/commonjs-in-browser.html)
+
+
 [minipack原理](https://segmentfault.com/a/1190000015291911)
