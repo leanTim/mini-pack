@@ -15,15 +15,12 @@
     "@babel/polyfill": "^7.12.1",
     "@babel/runtime": "^7.24.5",
     "@babel/traverse": "^7.24.5",
-    "babel-core": "^6.26.3",
-    "babel-traverse": "^6.26.0",
     "babylon": "^6.18.0",
     "core-js": "^3.37.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.24.5",
     "@babel/core": "^7.24.5",
-    "@babel/plugin-transform-arrow-functions": "^7.24.1",
     "@babel/preset-env": "^7.24.5"
   }
 }
